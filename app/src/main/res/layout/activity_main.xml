@@ -56,23 +56,15 @@
                 android:textSize="16sp"
                 />
 
-            <com.google.android.material.textfield.TextInputLayout
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                >
-
-                <androidx.appcompat.widget.AppCompatEditText
-                    android:id="@+id/et_name"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Name"
-                    android:textColor="#363A43"
-                    android:textColorHint="#7A8089"
-                    />
-
-            </com.google.android.material.textfield.TextInputLayout>
+                android:hint="Name"
+                android:textColor="#363A43"
+                android:textColorHint="#7A8089"
+                />
 
             <Button
                 android:id="@+id/btn_start"
